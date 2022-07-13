@@ -34,6 +34,7 @@
 
       .masthead-brand {
         margin-bottom: 0;
+        cursor: pointer;
       }
 
       .nav-masthead .nav-link {
@@ -84,6 +85,7 @@
         </h3>
         <nav class="nav nav-masthead justify-content-center">
           <a class="nav-link" href="#whoweare">WHO WE ARE</a>
+          <a class="nav-link" href="#theconcept">THE CONCEPT</a>
           <a class="nav-link" href="#visitus">VISIT US</a>
           <a class="nav-link" href="#wewantyou">WE WANT YOU</a>
           <a class="nav-link" href="#craftedbyskyworld">CRAFTED BY SKYWORLD</a>
@@ -147,7 +149,7 @@
     </div> -->
 
     <!-- Maybe certain part is better off using back background image method, i.e. the container below -->
-    <div class="container-fluid" style="background-image:url('images/3whoweare_bg.png'); background-size: cover; height: auto;">
+    <div id="theconcept" class="container-fluid" style="background-image:url('images/3whoweare_bg.png'); background-size: cover; height: auto;">
       <div class="container" style="padding-top: 5.85651537335vw;"> <!-- 80px -->
         <div class="row">
           <div class="col-md-6">
@@ -209,8 +211,8 @@
             EASILY ACCESSIBLE <br>
             Reach us via Klang Valley’s <br>
             major roads and highways.</p>
-            <a href="https://goo.gl/maps/odFPfyU3utcDbht68" target="_blank"><img src="images/4visitus_navigation_1.png"></a>
-            <a href="https://www.waze.com/en/live-map/directions/my/federal-territory-of-kuala-lumpur/ampang-jaya/skyworld-development-sdn-bhd?navigate=yes&place=ChIJdYxho1Q2zDERDhw_DN_r8N0" target="_blank"><img src="images/4visitus_navigation_2.png"></a>
+            <a href="https://maps.app.goo.gl/i3cvJ7R1yRQY5XRw7" target="_blank"><img src="images/4visitus_navigation_1.png"></a>
+            <a href="https://waze.com/ul/hw2864twce" target="_blank"><img src="images/4visitus_navigation_2.png"></a>
             <br>
             <img src="images/4visitus_navigation_3.png">
           </div>
@@ -301,35 +303,37 @@
                       <p style="margin-bottom: 0rem; font-weight: 700;">EVERY DAY ESSENTIALS</p>
                       <p style="font-weight: 600;">
                         • Grocer<br>
-                        • Laundry<br>
-                        • Specialty Shops (Frozen food, non-halal, liquor/wine cellar, baking products)<br>
                         • Organic Grocer<br>
+                        • Convenience Store<br>
+                        • Laundry<br>
+                        • Pharmacy<br>
+                        • Specialty Shops (Fresh Produce, Frozen Produce, Non-halal, Baking Products)<br>
                         • Stationery<br>
                         • Services<br>
-                        • Pharmacy<br>
+                        • Miscellaneous<br>
                       </p>
 
-                      <p style="margin-bottom: 0rem; font-weight: 700;">EVERY DAY DELIGHTS</p>
+                      <!-- <p style="margin-bottom: 0rem; font-weight: 700;">EVERY DAY DELIGHTS</p>
                       <p style="font-weight: 600;">
                         • Food & Beverages<br>
                         • Non-Halal Food and Beverages<br>
                         • Snacks & Confectionery<br>
-                      </p>
+                      </p> -->
                     </div>
 
                     <div class="col-md-6">
-                      <p style="margin-bottom: 0rem; font-weight: 700;">EVERY DAY DISCOVERIES</p>
+                      <p style="margin-bottom: 0rem; font-weight: 700;">EVERY DAY DELIGHTS</p>
                       <p style="font-weight: 600;">
-                        • Restaurants & Cafes<br>
-                        • Juice & Salad Bars<br>
                         • Bakeries<br>
-                        • Pizzerias<br>
-                        • International Cuisine Restaurants<br>
-                        • Pubs & Bistros<br>
                         • Dessert Parlours<br>
+                        • Juice & Salad Bars<br>
+                        • Snacks & Confectionery<br>
+                        • Restaurants & Cafes<br>
+                        • Pizzerias<br>
+                        • Pubs & Bistros<br>
                         • Beauty & Wellness<br>
                         • Leisure & Hobbies<br>
-                        • Convenience Store<br>
+                        • Miscellaneous<br>
                       </p>
                     </div>
                   </div>
@@ -406,7 +410,7 @@
             <p style="padding-bottom: 20px;"><span style="font-weight: 800; border-bottom: 2px solid white; padding-bottom: 10px; color: white;">CRAFTED BY SKYWORLD</span></p>
             <p style="color: white;">SAMA SQUARE is the new everyday lifestyle essential hub crafted by multiple award-winning city developer SkyWorld Development Group (SkyWorld).</p>
             <p style="color: white;">The commercial property aims to provide a conducive business environment by managing and introducing a range of specialty lifestyle shops, dining and entertainment brands that caters to the neighbourhood audience.</p>
-            <p style="color: white; font-weight: 600;">skyworld.my</p>
+            <a href="https://www.skyworld.my" target="_blank"><p style="color: white; font-weight: 600;">www.skyworld.my</p></a>
           </div>
         </div>
       </div>
@@ -459,20 +463,26 @@
               <!-- Nature of business -->
               <select class="form-control" id="businessnature" name="businessnature" required style="margin-bottom: 0.5rem;">
                 <option disabled selected value>-- Select nature of business --</option>
-                <option value="Food & beverages">Food & beverages</option>
-                <option value="Fashion boutique">Fashion boutique</option>
-                <option value="Beauty and facial services">Beauty and facial services</option>
-                <option value="Mobile shops">Mobile shops</option>
-                <option value="Convenience shops">Convenience shops</option>
+                <option value="Accessories & Gadgets">Accessories & Gadgets</option>
+                <option value="Beverage & Dessert">Beverage & Dessert</option>
+                <option value="Cafe & Bakeries">Cafe & Bakeries</option>
+                <option value="Convenience Store">Convenience Store</option>
+                <option value="Restaurant">Restaurant</option>
+                <option value="Frozen Produce">Frozen Produce</option>
+                <option value="Fresh Produce">Fresh Produce</option>
+                <option value="Learning & Development">Learning & Development</option>
+                <option value="Pharmacy">Pharmacy</option>
+                <option value="Services">Services</option>
+                <option value="Specialty Store">Specialty Store</option>
+                <option value="Miscellaneous">Miscellaneous</option>
               </select>
 
               <!-- Type of space -->
               <select class="form-control" id="spacetype" name="spacetype" required style="margin-bottom: 1rem;">
                 <option disabled selected value>-- Select type of space --</option>
-                <option value="Retail lots">Retail lots</option>
-                <option value="Kiosk">Kiosk</option>
-                <option value="Food court space">Food court space</option>
-                <option value="Event space">Event space</option>
+                <option value="Retail lots">Independent Retail Lot</option>
+                <option value="Kiosk">Linked Retail Lot</option>
+                <option value="Food court space">Food Stall / Food Kiosk</option>
               </select>
 
               <div class="form-group" style="margin-bottom: 2rem;">
@@ -530,6 +540,10 @@
               window.location.hash = hash;
             });
           }
+        });
+
+        $(".masthead-brand").on('click', function(event) {
+          $('html, body').animate({scrollTop: 0}, 800);
         });
       });
 
